@@ -57,13 +57,14 @@ const callToAction = await getSinglePage(
   <HeroSlider heroSlider={hero_slider} />
   <BannerFeature bannerFeature={banner_feature} />
   <AboutUs about={aboutIndex[0].data.about_section} />
-  <ServiceSection serviceIndex={serviceIndex[0]} services={services} />
+  
   
   <Team
     teamIndex={teamIndex[0]}
     team={team.slice(0, 3)}
     className="pt-0"
   />
+  <ServiceSection serviceIndex={serviceIndex[0]} services={services} />
   <CaseStudy projectIndex={projectIndex[0]} projects={projects} />
   <Testimonial testimonial={testimonial[0].data} />
   <CallToActionLG callToAction={callToAction[0].data} />

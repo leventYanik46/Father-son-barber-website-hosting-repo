@@ -3,7 +3,7 @@ title: "Business Consulting"
 description: "this is meta description for service page."
 bg_image: "images/backgrounds/page-title.jpg"
 image: "/images/service/service-2.jpg"
-icon: FaChartBar
+icon: FaHandsHelping
 pdf:
   enable: true
   title: "Download Brochure"
