@@ -55,17 +55,17 @@ banner_feature:
 
     # banner feature item loop
     - name: "Premium Grooming"
-      icon: "FaChartBar"
+      icon: "FaScissors"
       content: "From fades to hot towel shaves, we provide top-tier barbering."
 
     # banner feature item loop
     - name: "Personalized Service"
-      icon: "FaLightbulb"
+      icon: "FaUserTie"
       content: "Every client gets a customized experience tailored to their style."
 
     # banner feature item loop
     - name: "Efficient & Relaxing"
-      icon: "FaGear"
+      icon: "FaSpa"
       content: "Enjoy a comfortable, stylish environment with efficient service."
 
 ######### funfacts ########
