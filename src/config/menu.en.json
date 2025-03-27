@@ -1,0 +1,33 @@
+{
+  "main": [
+    {"name": "About Us", "url": "/about",  "hasChildren": true,
+    "children": [
+      {
+        "name": "Our Story", "url": "/about"
+      },
+      {
+       "name": "Contact Us",
+       "url": "/contact"
+      },
+     {
+       "name": "Carees",
+       "url": "/careers" 
+      }
+    ]
+  },
+    { "name": "Services", "url": "/services" },
+    { "name": "Styles", "url": "/projects" },
+    { "name": "Blog", "url": "/blog" },
+    { "name": "Team", "url": "/team" },
+   
+    { "name":"Location", "url": "/location" }
+  ],
+  "footer": [
+    { "name": "About Us", "url": "/about" },
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Terms of Service", "url": "/terms" },
+    { "name": "Contact Us", "url": "/contact" },
+    { "name": "Services", "url": "/services" },
+    { "name": "Styles", "url": "/projects" }
+  ]
+}
