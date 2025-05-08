@@ -1,6 +1,6 @@
 ---
 title: "How to build an Application with modern Technology"
-meta_title: ""
+meta_title: "post"
 description: "this is meta description"
 date: 2023-04-08T05:00:00Z
 image: "/images/blog/post-5.png"

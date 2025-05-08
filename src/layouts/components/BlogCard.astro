@@ -28,7 +28,7 @@ const { by, on } = await getTranslations(lang as keyof ContentEntryMap);
 ---
 
 <div class="lg:mb-0 mb-4 relative z-10">
-  <article class="card">
+  <article class="text-text-light-2 card">
     <div class="card-type" set:html={markdownify(categories[0])} />
     <ImageMod
       class="w-full aspect-[445/350] object-cover"
@@ -37,24 +37,24 @@ const { by, on } = await getTranslations(lang as keyof ContentEntryMap);
       height={350}
       alt="blog-thumb"
     />
-    <div class="card-body">
-      <div class="card-meta">
+    <div class=" text-text-light-2 card-body">
+      <div class="text-text-light-2 card-meta">
         {by}
-        <strong>
-          <a
+        <strong class="text-text-light-2">
+          <a class="text-text-light-2"
             href={slugSelector(`/authors/${slugify(author)}`, lang)}
             set:html={humanize(author)}
           />/ {on}
-          <strong>{dateFormat(date)}</strong>
+          <strong class='text-text-light-2'>{dateFormat(date)}</strong>
         </strong>
-        <h4 class="card-title">
+        <h4 class="text-text-light-2 card-title">
           <a
             href={slugSelector(`/${data.id}`, lang)}
             set:html={markdownify(title)}
           />
         </h4>
         <span class="section-title-border"></span>
-        <p class="card-text">
+        <p class=" text-text-light-2 card-text">
           {plainify(data.body)}
         </p>
       </div>

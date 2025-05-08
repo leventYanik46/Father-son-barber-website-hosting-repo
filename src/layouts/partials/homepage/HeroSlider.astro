@@ -4,6 +4,7 @@ import { markdownify } from "@/lib/utils/textConverter";
 
 const { heroSlider } = Astro.props;
 let lang = getLangFromUrl(Astro.url);
+console.log(heroSlider.slider_item);
 ---
 
 {
@@ -22,7 +23,7 @@ let lang = getLangFromUrl(Astro.url);
               <div class="swiper-slide relative">
                 <div class="relative h-[720px]">
                   <div
-                    class="absolute inset-0 bg-cover bg-center"
+                    class="absolute inset-0 bg-cover bg-center ml-60 mr-60"
                     style={{
                       backgroundImage: `url(${slider.bg_image})`,
                     }}

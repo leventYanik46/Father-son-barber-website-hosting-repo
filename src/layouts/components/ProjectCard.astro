@@ -10,7 +10,7 @@ const { pathname } = Astro.url;
 const groups = [
   ...new Set(
     projects.map((project: { data: { category: string } }) =>
-      project.data.category.toLocaleLowerCase()
+      project?.data?.category?.toLocaleLowerCase()
     )
   ),
 ];
@@ -47,19 +47,20 @@ const groups = [
   >
     {
       projects.map((project: any) => {
-        const slugParts = project.id.split("/");
+        // Fallback to "projects" if project.id is undefined
+        const slugParts = (project.id || "projects").split("/");
         slugParts[0] = "projects";
         const modifiedSlug = slugParts.join("/");
         project.id = modifiedSlug;
         return (
           <li
             class="lg:col-3 sm:col-6"
-            data-groups={`["${project?.data?.category.toLocaleLowerCase()}","all"]`}
+            data-groups={`["${project?.data?.category?.toLocaleLowerCase()}","all"]`}
           >
             <div class="project-item mb-10">
               <div class="relative mb-4 overflow-hidden">
                 <ImageMod
-                  src={project.data.image}
+                  src={project.data.image || "/images/default.jpg"} // fallback image if undefined
                   alt="project thumb"
                   class="w-full object-cover"
                   width={473}
@@ -76,12 +77,12 @@ const groups = [
               <div class="ms-4">
                 <h6
                   class="text-primary text-base mb-2"
-                  set:html={markdownify(project.data.category)}
+                  set:html={markdownify(project.data.category || "Untitled")}
                 />
                 <h5 class="text-text-dark hover:text-primary duration-200">
                   <a
                     href={slugSelector(`${project.id}`, lang)}
-                    set:html={markdownify(project.data.title)}
+                    set:html={markdownify(project.data.title || "No Title")}
                   />
                 </h5>
               </div>

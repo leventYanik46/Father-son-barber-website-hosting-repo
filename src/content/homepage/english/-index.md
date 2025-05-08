@@ -22,27 +22,6 @@ hero_slider:
         enable: true
         label: "View Services"
         link: "/services"
-
-    # slider item
-    - subtitle: "Premium Grooming"
-      title: "Beard Trims & Shaves"
-      content: "A sharp beard makes all the difference. Our professional trims, line-ups, and hot towel shaves will leave you looking polished."
-      bg_image: "/images/slider/banner-3.jpg"
-      button:
-        enable: true
-        label: "See Our Work"
-        link: "/gallery"
-
-    # slider item
-    - subtitle: "Confidence Starts Here"
-      title: "Experience the Best Cut"
-      content: "At our barber shop, every haircut is more than just a service—it's an experience. Sit back, relax, and enjoy top-tier grooming."
-      bg_image: "/images/slider/banner-4.jpg"
-      button:
-        enable: true
-        label: "Visit Us"
-        link: "/contact"
-
 ########### banner feature #####
 banner_feature:
   enable: true

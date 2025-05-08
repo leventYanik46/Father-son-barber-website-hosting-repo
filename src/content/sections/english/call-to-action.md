@@ -1,8 +1,8 @@
 ---
 enable: true
-title: "Look Sharp & Feel Confident with Our Expert Grooming"
+title: "Bexar give the smart solution for your business"
 button:
   enable: true
-  label: "Book an Appointment"
-  link: "/team"
+  label: "get an quote"
+  link: "/contact"
 ---

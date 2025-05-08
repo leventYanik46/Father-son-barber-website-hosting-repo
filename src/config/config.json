@@ -23,9 +23,9 @@
 
   "params": {
     "contact_form_action": "#",
-    "address": "123 Main Street, New York, NY 10001",
-    "phone": "123-456-7890",
-    "email": "info@bexar.com",
+    "address": "9437 Lorton Market St, Lorton, VA 22079",
+    "phone": "+1 571-642-5380",
+    "email": "info@fatherandsonbarber.com",
     "footer_content": "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat. Duis aute irure dolor in reprehenderit.",
     "copyright": "&copy; Designed And Developed by Levent Yanik",
     "copyright_menu": {
@@ -39,11 +39,11 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Get A Quote",
-    "link": "/contact"
+    "label": "Book an appointment",
+    "link": "www.vagaro.com/fatherandsonbarbershop/book-now"
   },
 
-  "metadata": {
+"metadata": {
     "meta_author": "themefisher",
     "meta_image": "/images/og-image.png",
     "meta_description": "Bexer is a SAAS theme powered by Astro"

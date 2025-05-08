@@ -29,7 +29,7 @@ const {
 <div class="lg:col-4 order-1 lg:order-2">
   <!-- Latest Post -->
   <div class="bg-white px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{latest_posts}</h5>
+    <h5 class="text-text-light mb-5">{latest_posts}</h5>
     <ul class="space-y-4">
       {
         sortedPosts.map((post) => {
@@ -52,13 +52,13 @@ const {
 
                 <div>
                   <a
-                    class="flex justify-between text-text-dark hover:text-primary !no-underline mb-2"
+                    class="flex justify-between text-text-light hover:text-primary !no-underline mb-2"
                     href={slugSelector(`${post.id}`, lang)}
                   >
                     {humanize(post.data.title)}
                   </a>
                   {post.data.date && (
-                    <div class="text-sm">{dateFormat(post.data.date)}</div>
+                    <div class="text-text-light text-sm">{dateFormat(post.data.date)}</div>
                   )}
                 </div>
               </div>
@@ -71,7 +71,7 @@ const {
 
   <!-- categories -->
   <div class="bg-white px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{Tcategories}</h5>
+    <h5 class="text-text-light mb-5">{Tcategories}</h5>
     <ul class="list-styled style-circle space-y-4">
       {
         categories.map((category) => {
@@ -79,7 +79,7 @@ const {
           return (
             <li class="border-b border-border pb-4">
               <a
-                class="flex justify-between hover:text-primary !no-underline"
+                class="flex justify-between text-text-light hover:text-primary !no-underline"
                 href={slugSelector(`/categories/${category}`, lang)}
               >
                 {humanize(category as unknown as string)} <span>({count})</span>
@@ -92,14 +92,14 @@ const {
   </div>
   <!-- tags -->
   <div class="bg-white px-8 py-10 box-shadow mb-12">
-    <h5 class="mb-5">{Ttags}</h5>
+    <h5 class="text-text-light mb-5">{Ttags}</h5>
     <ul class="flex flex-wrap gap-2">
       {
         tags.map((tag: string) => {
           return (
             <li class="inline-block">
               <a
-                class="btn btn-primary bg-white text-text font-normal border-none box-shadow duration-200 hover:bg-primary hover:text-white btn-sm hover-ripple"
+                class="btn btn-primary bg-white text-text-light-2 font-normal text-lg border-none box-shadow duration-200 hover:bg-primary hover:text-white btn-sm hover-ripple"
                 href={slugSelector(`/tags/${tag}`, lang)}
               >
                 {humanize(tag)}

@@ -12,17 +12,18 @@
       "text_color": {
         "text": "#ffffff",     
         "text-dark": "#dddddd", 
-        "text-light": "#172231" 
+        "text-light": "#172231", 
+        "text-light-2": "#333333"
       }
     }
   },
   "fonts": {
     "font_family": {
-      "primary": "Teko:wght@300;400;600;700",
+      "primary": "Open Sans:wght@300;400;600;700",
       "primary_type": "Teko",
       "secondary": "Teko:wght@300;400;600;700",
       "secondary_type": "Teko"
     },
-    "font_size": { "base": "16", "scale": "1.2" }
+    "font_size": { "base": "18", "scale": "1.2" }
   }
 }

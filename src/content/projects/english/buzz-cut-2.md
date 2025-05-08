@@ -1,0 +1,7 @@
+---
+title: "Buzz Cut with High Skin Fade"
+date: 2019-02-07T10:47:55+06:00
+description: "Buzz Cut with High Skin Fade Haircut"
+image: "/images/project/chevron.jpg"
+category: "Haircut"
+---

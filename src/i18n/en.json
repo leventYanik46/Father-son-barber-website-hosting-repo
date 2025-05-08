@@ -31,7 +31,7 @@
   "client": "Client",
   "category": "Category",
   "date": "Date",
-  "status": "Status",
+  "status": "style",
   "download_pdf": "Download PDF",
   "our_services": "Our Services"
 }

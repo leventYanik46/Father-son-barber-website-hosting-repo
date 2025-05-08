@@ -12,8 +12,8 @@ const { testimonial } = Astro.props;
         <div class="row">
           <div class="col-12 text-center relative">
             <span class="section-title-border border-center" />
-            <p class="text-h5" set:html={markdownify(testimonial.subtitle)} />
-            <h2 class="h1 mb-10" set:html={markdownify(testimonial.title)} />
+            <p class="text-primary text-h5" set:html={markdownify(testimonial.subtitle)} />
+            <h2 class="text-text-light-2 h1 mb-10" set:html={markdownify(testimonial.title)} />
           </div>
           <div class="col-10 mx-auto">
             <div class="swiper testimonial-slider">
@@ -42,7 +42,7 @@ const { testimonial } = Astro.props;
                             data-dot-image="/images/testimonial/client-2.jpg"
                           >
                             <p
-                              class="italic mb-6 text-text-dark"
+                              class="italic mb-6 text-text-light"
                               set:html={markdownify(t.content)}
                             />
                             <FaQuoteLeft className="text-primary/30 absolute top-0 left-1/2 text-[100px] -translate-x-[50px]" />

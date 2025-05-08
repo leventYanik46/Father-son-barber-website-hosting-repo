@@ -55,19 +55,19 @@ const { read_more } = await getTranslations(lang as keyof ContentEntryMap);
                   <h5>
                     <a
                       href={slugSelector(`/${service.id}`, lang)}
-                      class="text-text-dark hover:text-primary duration-200"
+                      class="text-text-light hover:text-primary duration-200 font-bold"
                       set:html={markdownify(service.data.title)}
                     />
                   </h5>
                   {service?.body && (
                     <p
-                      class="mt-2 mb-4 line-clamp-2"
+                      class="text-text-light mt-2 mb-4 line-clamp-2"
                       set:html={plainify(service?.body)}
                     />
                   )}
                   <a
                     href={slugSelector(`/${service.id}`, lang)}
-                    class="btn btn-secondary btn-arrow"
+                    class="text-text-light btn btn-secondary btn-arrow"
                   >
                     {read_more}
                   </a>

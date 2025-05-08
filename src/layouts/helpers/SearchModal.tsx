@@ -148,7 +148,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
               >
                 <title>close icon</title>
                 <path
-                  fill="currentcolor"
+                  fill="#a77d2b"
                   d="M256 512A256 256 0 10256 0a256 256 0 100 512zM175 175c9.4-9.4 24.6-9.4 33.9.0l47 47 47-47c9.4-9.4 24.6-9.4 33.9.0s9.4 24.6.0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6.0 33.9s-24.6 9.4-33.9.0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9.0s-9.4-24.6.0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6.0-33.9z"
                 ></path>
               </svg>
@@ -161,7 +161,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
               >
                 <title>search icon</title>
                 <path
-                  fill="currentcolor"
+                  fill="#a77d2b"
                   d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8.0 45.3s-32.8 12.5-45.3.0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9.0 208S93.1.0 208 0 416 93.1 416 208zM208 352a144 144 0 100-288 144 144 0 100 288z"
                 ></path>
               </svg>
@@ -190,7 +190,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
               <svg
                 width="14"
                 height="14"
-                fill="currentcolor"
+                fill="#a77d2b"
                 viewBox="0 0 16 16"
               >
                 <path d="M3.204 11h9.592L8 5.519 3.204 11zm-.753-.659 4.796-5.48a1 1 0 011.506.0l4.796 5.48c.566.647.106 1.659-.753 1.659H3.204a1 1 0 01-.753-1.659z"></path>
@@ -200,7 +200,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
               <svg
                 width="14"
                 height="14"
-                fill="currentcolor"
+                fill="#a77d2b"
                 viewBox="0 0 16 16"
               >
                 <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 001.506.0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 00-.753 1.659z"></path>
@@ -213,7 +213,7 @@ const SearchModal = ({ lang }: { lang: string | undefined }) => {
               <svg
                 width="12"
                 height="12"
-                fill="currentcolor"
+                fill="#a77d2b"
                 viewBox="0 0 16 16"
               >
                 <path

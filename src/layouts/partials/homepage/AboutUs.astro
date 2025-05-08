@@ -39,8 +39,9 @@ const lang = getLangFromUrl(Astro.url);
               <p class="mb-5" set:html={markdownify(about.content)} />
               {about.button.enable && (
                 <a
-                  class="btn btn-primary"
-                  href={slugSelector(about.button.link, lang)}
+            class="btn btn-primary hover:glow-shadow hidden lg:inline-block"
+            href="https://www.vagaro.com/fatherandsonbarbershop/book-now"
+          
                 >
                   <span>{about.button.label}</span>
                 </a>

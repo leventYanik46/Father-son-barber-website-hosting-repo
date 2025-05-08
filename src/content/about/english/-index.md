@@ -9,7 +9,7 @@ philosophy_section:
   enable: true
   items:
     - title: "Our Mission"
-      content: "At [Your Barber Shop Name], we believe in delivering the finest grooming experience for every client. Our mission is to provide precision cuts, expert styling, and an atmosphere where every customer feels at home."
+      content: "At Father and Son Barber, we believe in delivering the finest grooming experience for every client. Our mission is to provide precision cuts, expert styling, and an atmosphere where every customer feels at home."
       list:
         - "Exceptional Haircuts & Grooming"
         - "Customer Satisfaction"
@@ -28,11 +28,11 @@ about_section:
   enable: true
   subtitle: "About Us"
   title: "Your Go-To Spot for Classic Cuts & Modern Styles"
-  content: "At [Your Barber Shop Name], we provide expert haircuts, beard trims, and grooming services in a relaxed, stylish environment. Our barbers are passionate about their craft and committed to making every visit an experience worth coming back for."
+  content: "At Father and Son Barber, we provide expert haircuts, beard trims, and grooming services in a relaxed, stylish environment. Our barbers are passionate about their craft and committed to making every visit an experience worth coming back for."
   bg_image: "/images/backgrounds/about-us-bg.png"
-  image: "/images/about/about-us.png"
+  image: "/images/about/about-us.jpg"
   button:
     enable: true
     label: "Book an Appointment"
-    link: "/appointments"
+    link: "https://www.vagaro.com/fatherandsonbarbershop/book-now"
 ---
