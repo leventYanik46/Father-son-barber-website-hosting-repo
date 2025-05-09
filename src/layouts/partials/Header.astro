@@ -3,7 +3,6 @@ import Logo from "@/components/Logo.astro";
 import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import social from "@/config/social.json";
-import LanguageSwitcher from "@/helpers/LanguageSwitcher";
 import {
   getLangFromUrl,
   getTranslations,
@@ -177,8 +176,6 @@ if (disabledLanguages.includes(lang)) {
     </ul>
 
     <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
-
-      <LanguageSwitcher client:load lang={lang} pathname={pathname} />
 
       {/* Navigation button */}
       {

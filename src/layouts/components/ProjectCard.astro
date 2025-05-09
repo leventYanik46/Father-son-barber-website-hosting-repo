@@ -60,7 +60,7 @@ const groups = [
             <div class="project-item mb-10">
               <div class="relative mb-4 overflow-hidden">
                 <ImageMod
-                  src={project.data.image || "/images/default.jpg"} // fallback image if undefined
+                  src={project.data.image || "/images/project/buzz-cut-4.jpg"} // fallback image if undefined
                   alt="project thumb"
                   class="w-full object-cover"
                   width={473}
@@ -77,12 +77,12 @@ const groups = [
               <div class="ms-4">
                 <h6
                   class="text-primary text-base mb-2"
-                  set:html={markdownify(project.data.category || "Untitled")}
+                  set:html={markdownify(project.data.category || "Buzz Cut")}
                 />
                 <h5 class="text-text-dark hover:text-primary duration-200">
                   <a
                     href={slugSelector(`${project.id}`, lang)}
-                    set:html={markdownify(project.data.title || "No Title")}
+                    set:html={markdownify(project.data.title || "Buzz Cut")}
                   />
                 </h5>
               </div>

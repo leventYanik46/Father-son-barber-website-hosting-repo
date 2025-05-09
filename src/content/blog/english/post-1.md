@@ -26,7 +26,6 @@ So, if you're ready to embrace a new look or simply want to stay updated with th
 
 Short haircuts for men are incredibly adaptable. They can suit a broad range of preferences and aesthetics. From classic to modern, there’s a short haircut to match each person’s style. The ability to quickly switch between looks makes short hairstyles a great choice for dynamic lifestyles.
 
-![Various examples of versatile short haircuts on different men](#)
 
 These haircuts work well with different hair textures and face shapes. Whether you have straight, wavy, or curly hair, there's a short style that will flatter you. Each cut can be tailored to highlight your best features, offering a fresh and appealing look. This flexibility is why short haircuts for men remain ever‑popular and widely appreciated.
 
@@ -37,12 +36,12 @@ These haircuts work well with different hair textures and face shapes. Whether y
 ### Buzz Cut  
 Buzz cuts are the go‑to option for men who like simplicity. This classic style offers a clean look that's easy to maintain. For men's short haircuts, short and simple is often the winner. The buzz cut's low‑maintenance nature appeals to busy individuals seeking a consistent appearance.
 
-![Man with a classic buzz cut hairstyle](/public/images/project/buzz-cut.png)
+![Man with a classic buzz cut hairstyle](/images/project/buzz-cut.png)
 
 ### Crew Cut  
 On the other hand, crew cuts provide a bit more length on top. This allows for some styling flexibility, unlike the buzz cut. The crew cut remains a timeless choice, exuding manliness without much fuss. Both styles continue to be favored as timeless, short, simple men's haircuts.
 
-![Man with a traditional crew cut haircut](/public/images/project/crew-cut.jpg)
+![Man with a traditional crew cut haircut](/images/project/crew-cut.jpg)
 
 ---
 
@@ -51,12 +50,12 @@ On the other hand, crew cuts provide a bit more length on top. This allows for s
 ### Undercut  
 Undercuts bring an edgy flair to men's haircuts. By contrasting short sides with a longer top, they create a striking look. This style allows for numerous variations, making it easy to customize.
 
-![Man with a stylish undercut hairstyle](/public/images/project/undercut1.jpg)
+![Man with a stylish undercut hairstyle](/images/project/undercut1.jpg)
 
 ### Fade  
 Fades are all about smooth transitions. They gradually shorten the hair, creating a sleek and polished effect. From low to high, fades adapt to various preferences and face shapes. Below are some short fade haircuts men should definitely consider.
 
-![Man with a sharp fade haircut](/public/images/project/project-7.jpg)
+![Man with a sharp fade haircut](/images/project/project-7.jpg)
 
 ---
 
@@ -65,12 +64,12 @@ Fades are all about smooth transitions. They gradually shorten the hair, creatin
 ### Textured Crop  
 Textured crop haircuts are popular for their relaxed and rugged style. The choppy layers add dimension and make it easy to style daily. This cut is perfect for those seeking a fashionable yet low‑maintenance look.
 
-![Man with a textured crop haircut](/public/images/project/french-crop-4.jpg)
+![Man with a textured crop haircut](/images/project/french-crop-4.jpg)
 
 ### Caesar Cut  
 Caesar cuts offer a distinctive, short fringe. This timeless style is making a big comeback, appealing to those who prefer a neat appearance. Both crop and Caesar cuts suit different hair textures, providing versatile choices for men.
 
-![Man with a Caesar haircut](#)
+![Man with a Caesar haircut](/images/project/chevron.jpg)
 
 ---
 
@@ -79,7 +78,7 @@ Caesar cuts offer a distinctive, short fringe. This timeless style is making a b
 ### Side Part  
 Side part haircuts never go out of style, making them a classic choice. They add a touch of refinement and elegance to any look—ideal for office settings or formal events.
 
-![Man with a side part haircut](/public/images/project/Side-part-3.jpg)
+![Man with a side part haircut](/images/project/Side-part-3.jpg)
 
 ### Spiky Style  
 Spiky styles bring a modern, edgy vibe to short hair. They're perfect for those who want to stand out. By using a bit of styling product, you can easily achieve a dynamic and youthful appearance.
@@ -93,12 +92,12 @@ Spiky styles bring a modern, edgy vibe to short hair. They're perfect for those 
 ### Quiff  
 Quiffs offer an exciting blend of volume and style for short hair. This haircut combines elements of the pompadour and flat‑top, making it both versatile and eye‑catching. It's perfect for men seeking a bold yet adaptable look.
 
-![Man with a quiff hairstyle](/public/images/project/quiff.jpg)
+![Man with a quiff hairstyle](/images/project/quiff.jpg)
 
 ### Pompadour  
 Pompadours have been adored for decades due to their dramatic flair. Modern versions pair well with fades, adding a contemporary twist. This mix of volume on top with sleek sides is a sure way to turn heads.
 
-![Man with a pompadour hairstyle](/public/images/project/pompadour.jpg)
+![Man with a pompadour hairstyle](/images/project/pompadour.jpg)
 
 ---
 
@@ -107,12 +106,12 @@ Pompadours have been adored for decades due to their dramatic flair. Modern vers
 ### Military Cut  
 Military haircuts exemplify simplicity and discipline. The high and tight cut is a classic choice, offering sharp lines and ease of care. It's ideal for those preferring a no‑fuss, professional appearance.
 
-![Man with military haircut](#)
+![Man with military haircut](/images/project/buzz-cut4.jpg)
 
 ### Buzz Fade  
 For a slightly modern edge, consider the buzz fade. It maintains the low maintenance of a buzz cut while adding a sleek gradient. The fade brings contrast and style, making it perfect for any setting.
 
-![Man with buzz fade haircut](#)
+![Man with buzz fade haircut](/images/project/buzz-cut.png)
 
 ---
 
@@ -124,7 +123,6 @@ Selecting the right haircut depends on several factors:
 2. **Hair Texture** – Thick hair can handle structured styles like pompadours, whereas fine hair might look fuller with a layered crop.  
 3. **Personal Style** – Whether you prefer classic or modern looks, there's a short haircut to suit your lifestyle and aesthetic preferences.
 
-![Man considering haircut options](#)
 
 ---
 
