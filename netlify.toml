@@ -4,3 +4,39 @@ command = "yarn build"
 
 [build.environment]
 NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/our-team"
+  to = "/team"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/our-team/*"
+  to = "/team/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing"
+  to = "/services"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing/*"
+  to = "/services/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/join-our-team"
+  to = "/careers"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/join-our-team/*"
+  to = "/careers/:splat"
+  status = 301
+  force = true
