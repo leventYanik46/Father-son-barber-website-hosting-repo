@@ -1,11 +1,14 @@
-// vite.config.js
-import { defineConfig } from 'vite';
+// astro.config.mjs
+import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  build: {
-    // disable esbuild’s CSS minification
-    cssMinify: false,
-    // (optional) produce sourcemaps so you can trace source of color-mix()
-    sourcemap: true,
+  // …your existing Astro config…
+  vite: {
+    build: {
+      // disable all minification (JS + CSS)
+      minify: false,
+      // explicitly disable CSS minification too
+      cssMinify: false,
+    },
   },
 });
