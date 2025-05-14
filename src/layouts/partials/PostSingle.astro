@@ -69,11 +69,12 @@ const {
         <ul class="mb-4">
           <li class="card-meta">
             {by}
-            <strong>
-              <a
-                href={slugSelector(`/authors/${slugify(author)}`, lang)}
-                set:html={humanize(author)}
-              />/ {on}
+            <strong class="text-text-light-2">
+              {humanize(author)}
+              / {on}
+              <strong class='text-text-light-2'>{dateFormat(date)}</strong>
+            </strong>
+        </strong>
               <strong>{dateFormat(date)}</strong>
             </strong>
           </li>
