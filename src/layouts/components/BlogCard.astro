@@ -41,10 +41,8 @@ const { by, on } = await getTranslations(lang as keyof ContentEntryMap);
       <div class="text-text-light-2 card-meta">
         {by}
         <strong class="text-text-light-2">
-          <a class="text-text-light-2"
-            href={slugSelector(`/authors/${slugify(author)}`, lang)}
-            set:html={humanize(author)}
-          />/ {on}
+          {humanize(author)}
+          / {on}
           <strong class='text-text-light-2'>{dateFormat(date)}</strong>
         </strong>
         <h4 class="text-text-light-2 card-title">

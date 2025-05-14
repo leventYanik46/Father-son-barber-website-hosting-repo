@@ -5,7 +5,7 @@ description: "Best Short Haircuts for Men"
 date: 2025-04-08T05:00:00Z
 image: "/images/blog/best-short-haircut.jpg"
 categories: ["Short Haircuts", "Low Maintenance", "Classic & Formal", "Textured", "Statement"]
-author: "Mike Thompson"
+author: "Hasan Sarac"
 tags: ["Short Haircuts", "Buzz Cut", "Crew Cut", "Undercut", "Fade", "Textured Crop", "Caesar Cut", "Side Part", "Quiff", "Pompadour", "Military Cut", "Buzz Fade"]
 draft: false
 ---
