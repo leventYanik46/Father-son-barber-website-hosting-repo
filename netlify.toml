@@ -1,6 +1,7 @@
 [build]
 publish = "dist"
-command = "yarn build"
+command = "yarn build -- --minify=false"
+
 
 [build.environment]
 NODE_VERSION = "20"
