@@ -43,7 +43,7 @@ export default defineConfig({
       minify: false,
       cssMinify: false,
       // (Optional) Generate sourcemaps for tracing color-mix origins
-      sourcemap: true,
+      sourcemap: false,
     },
   },
   integrations: [
