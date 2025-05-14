@@ -1,8 +1,8 @@
 ---
 enable: true
-title: "Bexar give the smart solution for your business"
+title: "Father and son barber shop"
 button:
   enable: true
-  label: "get an quote"
-  link: "/contact"
+  label: "Make an Appointment"
+  link: "www.vagaro.com/fatherandsonbarbershop/book-now"
 ---

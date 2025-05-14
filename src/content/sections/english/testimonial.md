@@ -1,27 +1,23 @@
 ---
 enable: true
-title: "What Clients Are Say?"
+title: "What Clients Say?"
 subtitle: "Testimonials"
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Elijah Thomas"
+    designation: "Client 1"
     avatar: "/images/testimonial/client-1.jpg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "I walked into Father and Son Barber looking for something fresh, and I couldn’t be happier with the result! The barber took the time to understand exactly what I wanted and executed it perfectly. Friendly atmosphere and flawless service—highly recommend!"
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+  - name: "Jamal Rivera"
+    designation: "Client 2"
     avatar: "/images/testimonial/client-2.jpg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Father and Son Barber exceeded all my expectations. From the warm welcome to the final style, every detail was spot on. My new haircut turned heads all week, and I’ll definitely be back!"
 
   - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/testimonial/client-1.jpg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
+    designation: "Client 3"
     avatar: "/images/testimonial/client-3.jpg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "The team at Father and Son Barber truly knows their craft. They gave me a modern cut that’s easy to maintain and looks great. Professional, efficient, and the best haircut I’ve had in years!"
+  
 ---

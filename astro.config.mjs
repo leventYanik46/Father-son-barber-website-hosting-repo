@@ -12,25 +12,22 @@ const { default_language } = config.settings;
 
 const supportedLang = [...languagesJSON.map((lang) => lang.languageCode)];
 const disabledLanguages = config.settings.disable_languages;
-
-// Filter out disabled languages from supportedLang
 const filteredSupportedLang = supportedLang.filter(
-  (lang) => !disabledLanguages.includes(lang),
+  (lang) => !disabledLanguages.includes(lang)
 );
 
-let highlighter;
+let highlighterInstance;
 async function getHighlighter() {
-  if (!highlighter) {
+  if (!highlighterInstance) {
     const { getHighlighter } = await import("shiki");
-    highlighter = await getHighlighter({ theme: "one-dark-pro" });
+    highlighterInstance = await getHighlighter({ theme: "one-dark-pro" });
   }
-  return highlighter;
+  return highlighterInstance;
 }
 
-// https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
-  base: config.site.base_path ? config.site.base_path : "/",
+  site: config.site.base_url || "http://examplesite.com",
+  base: config.site.base_path || "/",
   trailingSlash: config.site.trailing_slash ? "always" : "ignore",
   i18n: {
     locales: filteredSupportedLang,
@@ -39,11 +36,13 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     build: {
-      // Disable all minification (JS + CSS) to prevent esbuild CSS parsing warnings
       minify: false,
       cssMinify: false,
-      // (Optional) Generate sourcemaps for tracing color-mix origins
-      sourcemap: false,
+      sourcemap: true,
+    },
+    ssr: {
+      // Ensure commonjs modules like react-lite-youtube-embed are bundled
+      noExternal: ["react-lite-youtube-embed"],
     },
   },
   integrations: [
@@ -67,9 +66,7 @@ export default defineConfig({
       remarkToc,
       [
         remarkCollapse,
-        {
-          test: "Table of contents",
-        },
+        { test: "Table of contents" },
       ],
     ],
     shikiConfig: {

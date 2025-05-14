@@ -7,7 +7,7 @@ const lang = getLangFromUrl(Astro.url);
 ---
 
 <section
-  class="section overlay-secondary bg-fixed bg-[url('/images/backgrounds/cta-lg.jpg')]"
+  class="section overlay-secondary bg-fixed bg-[url('/images/backgrounds/banner-2.jpg')]"
 >
   <div class="container">
     <div class="row">
@@ -18,9 +18,9 @@ const lang = getLangFromUrl(Astro.url);
         />
         {
           callToAction.button.enable && (
-            <a
-              href={slugSelector(callToAction.button.link, lang)}
-              class="btn btn-primary hover-ripple"
+          <a
+            class="btn btn-primary hover:glow-shadow hidden lg:inline-block"
+            href="https://www.vagaro.com/fatherandsonbarbershop/book-now"
               set:html={callToAction.button.label}
             />
           )
