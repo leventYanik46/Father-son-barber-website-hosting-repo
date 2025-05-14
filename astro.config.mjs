@@ -36,7 +36,16 @@ export default defineConfig({
     locales: filteredSupportedLang,
     defaultLocale: default_language,
   },
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    build: {
+      // Disable all minification (JS + CSS) to prevent esbuild CSS parsing warnings
+      minify: false,
+      cssMinify: false,
+      // (Optional) Generate sourcemaps for tracing color-mix origins
+      sourcemap: true,
+    },
+  },
   integrations: [
     react(),
     sitemap(),
