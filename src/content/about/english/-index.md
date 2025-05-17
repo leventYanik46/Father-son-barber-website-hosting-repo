@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-meta_title: "About"
+meta_title: "Father and son Barber About Us Page"
 description: "Learn more about our barber shop, our mission, and our commitment to top-quality grooming services."
 image: ""
 draft: false

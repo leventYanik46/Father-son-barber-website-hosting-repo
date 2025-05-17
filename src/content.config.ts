@@ -184,6 +184,26 @@ const contactCollection = defineCollection({
     draft: z.boolean().optional(),
   }),
 });
+const locationCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/location" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+const careersCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/careers" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
 
 const aboutCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/about" }),
@@ -331,4 +351,6 @@ export const collections = {
   content: contentSchema,
   testimonials: testimonialCollection,
   callToAction: callToActionSchema,
+  location: locationCollection,
+  careers: careersCollection,
 };
