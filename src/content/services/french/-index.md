@@ -30,7 +30,7 @@ about_section:
   title: "Nous sommes une équipe dynamique et une agence d'affaires"
   content: "Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium."
   bg_image: "/images/backgrounds/about-us-bg.png"
-  image: "/images/about/about-us.png"
+  image: "/images/about/about-us.jpg"
   button:
     enable: true
     label: "Plus de services"
