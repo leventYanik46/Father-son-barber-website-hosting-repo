@@ -16,10 +16,10 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const contact = await getListPage("contact", lang as keyof ContentEntryMap);
+const location = await getListPage("location", lang as keyof ContentEntryMap);
 
 const { contact_form_action, address, phone, email } = config.params;
-const { title, description, meta_title, image } = contact[0].data;
+const { title, description, meta_title, image } = location[0].data;
 
 const {
   our_address,
@@ -33,6 +33,9 @@ const {
   placeholder_message,
   placeholder_phone,
 } = await getTranslations(lang as keyof ContentEntryMap);
+
+// Export meta data for Base.astro
+
 ---
 
 <Base

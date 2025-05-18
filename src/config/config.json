@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Father and Son Barber",
-    "base_url": "https://bexer-astro.onrender.com",
+    "base_url": "https://fatherandsonbarber.com/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -11,7 +11,7 @@
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "system",
     "pagination": 4,
     "blog_folder": "blog",
@@ -43,9 +43,8 @@
     "link": "www.vagaro.com/fatherandsonbarbershop/book-now"
   },
 
-"metadata": {
-    "meta_author": "themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Bexer is a SAAS theme powered by Astro"
+  "metadata": {
+    "meta_author": "Levent Yanik",
+    "meta_description": "Father and Son Barber Shop located in Lorton, Virginia, is a family-owned grooming destination offering expert haircuts, classic shaves, and personalized service in a welcoming, professional atmosphere."
   }
 }

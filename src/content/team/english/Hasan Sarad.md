@@ -1,6 +1,6 @@
 ---
 title: "Hasan Sarac"
-description: "this is meta description"
+description: "Hasan Sarac is a skilled barber known for precision haircuts, modern styles, and personalized service at Father and Son Barber Shop in Lorton, Virginia."
 image: "/images/team/team-2.jpg"
 designation: "Barber"
 social:

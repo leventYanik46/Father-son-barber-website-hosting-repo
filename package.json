@@ -1,8 +1,8 @@
 {
-  "name": "bexer-astro",
+  "name": "father-and-son-barber-shop",
   "version": "2.1.0",
-  "description": "Astro Business Theme",
-  "author": "Themefisher",
+  "description": "Father and son barber shop website",
+  "author": "Levent Yanik",
   "license": "UNLICENSED",
   "packageManager": "yarn@1.22.22",
   "type": "commonjs",

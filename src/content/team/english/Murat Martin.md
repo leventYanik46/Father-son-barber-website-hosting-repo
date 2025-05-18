@@ -1,6 +1,6 @@
 ---
 title: "Murat Martin"
-description: "this is meta description"
+description: "Murat Martin is a skilled barber known for precision haircuts, modern styles, and personalized service at Father and Son Barber Shop in Lorton, Virginia."
 image: "/images/team/team-4.jpg"
 designation: "Barber"
 social:

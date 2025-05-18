@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Contact Us"
+description: "Contact page for inquiries and support of Father And Son Barber."
 draft: false
 ---
