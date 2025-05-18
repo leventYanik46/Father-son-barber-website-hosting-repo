@@ -36,3 +36,4 @@ about_section:
     label: "Plus de services"
     link: "/services"
 ---
+<!-- No markdown body content -->
