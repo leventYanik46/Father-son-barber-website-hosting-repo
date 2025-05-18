@@ -1,8 +1,8 @@
 ---
-title: "Alex Monatinmo"
-description: "this is meta description"
+title: "Hasan Sarac"
+description: "Hasan Sarac is a skilled barber known for precision haircuts, modern styles, and personalized service at Father and Son Barber Shop in Lorton, Virginia."
 image: "/images/team/team-2.jpg"
-designation: "Designer"
+designation: "Barber"
 social:
   - name: facebook
     icon: FaFacebook
@@ -12,37 +12,29 @@ social:
     icon: FaTwitter
     link: "#"
 
-  - name: github
-    icon: FaGithub
+  - name: instagram
+    icon: FaInstagram
     link: "#"
 
-  - name: linkedin
-    icon: FaLinkedin
-    link: "#"
-
-# skill
-skill_title: Compétences
-skills:
-  - label: Coordination
-    percentage: 85%
-
-  - label: Programmation
-    percentage: 79%
-
-  - label: Communication
-    percentage: 95%
 ---
 
-#### Historique de travail et commentaires
+#### Work History & Feedback
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis.
+Work History & Feedback
+With years of experience in the barbering industry, Hasan Sarac has built a reputation for precise cuts and personalized styles. Known for his meticulous attention to detail, he has developed a strong client base by focusing on modern styles and classic techniques. Hasan's approach blends the artistry of barbering with a deep understanding of his clients' needs, ensuring every visit is a satisfying experience. His ability to connect with clients and consistently deliver sharp, polished results has made him a respected figure in the barbering community.
 
-#### Analyse de profil
+#### Profile Analytics
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+4200+ clients served annually
 
-#### Activités
+4.9 average customer rating
 
-- Enim ad minim veniam, quis nostrud
-- Sed do eiusmod tempor consectetur incididunt ut
-- Excepteur sint occaecat cupidatat non proident sunt in culpa
+#### Activities
+
+- Fades
+
+- Scissor Cut
+
+- Textured haircuts
+
+- Buzz cut
