@@ -1,7 +1,7 @@
 ---
 title: "Our Terms And Conditions"
 draft: false
-description: "This is meta description"
+description: "A comprehensive overview of our terms and conditions, outlining responsibilities, personal information protection, and privacy policy updates."
 ---
 
 #### Responsibility of Contributors

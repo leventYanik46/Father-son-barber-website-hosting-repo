@@ -103,7 +103,7 @@ This haircut suits men seeking a polished appearance, excellent for both profess
 ![Side Part](/images/blog/side-part1.jpg)
 
 ---
-
+p
 ## 7. The Slick Back
 
 The slick back is a timeless option that exudes confidence. Brushing the hair backward can conceal a receding hairline.
@@ -112,7 +112,7 @@ Using a strong‑hold gel or pomade helps maintain this sleek look. It’s ideal
 
 The slick back balances style and simplicity, offering a polished look perfect for formal occasions.
 
-![Slick Back](/images/blog/slicked-back.jpg)
+![Slick Back](/images/blog/Slicked-Back.jpg)
 
 ---
 

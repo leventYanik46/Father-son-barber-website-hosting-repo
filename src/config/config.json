@@ -39,8 +39,7 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Book an appointment",
-    "link": "www.vagaro.com/fatherandsonbarbershop/book-now"
+    "label": "Book an appointment"
   },
 
   "metadata": {

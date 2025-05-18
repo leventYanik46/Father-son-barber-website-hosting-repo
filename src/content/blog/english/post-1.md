@@ -106,7 +106,7 @@ Pompadours have been adored for decades due to their dramatic flair. Modern vers
 ### Military Cut  
 Military haircuts exemplify simplicity and discipline. The high and tight cut is a classic choice, offering sharp lines and ease of care. It's ideal for those preferring a no‑fuss, professional appearance.
 
-![Man with military haircut](/images/project/buzz-cut4.jpg)
+![Man with military haircut](/images/project/buzz-cut-4.jpg)
 
 ### Buzz Fade  
 For a slightly modern edge, consider the buzz fade. It maintains the low maintenance of a buzz cut while adding a sleek gradient. The fade brings contrast and style, making it perfect for any setting.
