@@ -22,6 +22,9 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
+if (!homepage || homepage.length === 0 || !homepage[0].data) {
+  throw new Error("Homepage content not found for language: " + lang);
+}
 const { hero_slider, banner_feature, funfacts, feature, latest_news } =
   homepage[0].data;
 
