@@ -29,6 +29,10 @@ const { hero_slider, banner_feature, funfacts, feature, latest_news } =
   homepage[0].data;
 
 const aboutIndex = await getListPage("about", lang as keyof ContentEntryMap);
+if (!aboutIndex || aboutIndex.length === 0 || !aboutIndex[0].data || !aboutIndex[0].data.about_section) {
+  throw new Error("About content not found or incomplete for language: " + lang);
+}
+
 const serviceIndex = await getListPage(
   "services",
   lang as keyof ContentEntryMap
