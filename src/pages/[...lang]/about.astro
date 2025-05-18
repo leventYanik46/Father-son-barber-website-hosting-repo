@@ -86,5 +86,7 @@ const team = await getSinglePage("team", lang as keyof ContentEntryMap);
   }
 
   <AboutUs about={about_section} />
-  <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray" />
+  { team && teamIndex && teamIndex.length > 0 && (
+    <Team teamIndex={teamIndex[0]} team={team} className="pt-0 bg-gray" />
+  ) }
 </Base>
