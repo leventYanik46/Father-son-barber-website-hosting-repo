@@ -73,7 +73,11 @@ const callToAction = await getSinglePage(
   />
   <ServiceSection serviceIndex={serviceIndex[0]} services={services} />
   <CaseStudy projectIndex={projectIndex[0]} projects={projects} />
-  <Testimonial testimonial={testimonial[0].data} />
-  <CallToActionLG callToAction={callToAction[0].data} />
+  {testimonial?.[0]?.data && (
+    <Testimonial testimonial={testimonial[0].data} />
+  )}
+  {callToAction?.[0]?.data && (
+    <CallToActionLG callToAction={callToAction[0].data} />
+  )}
   <LatestNews posts={posts} latest_news={latest_news} />
 </Base>
