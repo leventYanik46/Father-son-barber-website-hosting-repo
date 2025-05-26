@@ -112,7 +112,8 @@ Using a strong‑hold gel or pomade helps maintain this sleek look. It’s ideal
 
 The slick back balances style and simplicity, offering a polished look perfect for formal occasions.
 
-![Slick Back](/images/blog/Slicked-Back.jpg)
+![Slick Back](/images/blog/slicked-back-1.jpg)
+
 
 ---
 

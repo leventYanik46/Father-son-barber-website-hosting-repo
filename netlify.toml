@@ -41,3 +41,9 @@ NODE_VERSION = "20"
   to = "/careers/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap-index.xml"
+  status = 301
+  force = true
