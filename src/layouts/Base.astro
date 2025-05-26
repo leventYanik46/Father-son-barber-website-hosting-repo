@@ -108,12 +108,12 @@ const language = lang || getLangFromUrl(Astro.url);
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
     <!-- meta-description -->
-    <meta
-      name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
+    {description && (
+      <meta
+        name="description"
+        content={plainify(description)}
+      />
+    )}
 
     <ClientRouter />
 

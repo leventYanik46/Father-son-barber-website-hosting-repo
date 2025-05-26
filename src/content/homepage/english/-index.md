@@ -1,4 +1,7 @@
 ---
+title: "Father and Son Barber Shop"
+meta_title: "Father and Son Barber Shop | Expert Haircuts & Classic Shaves in Lorton, VA"
+description: "Welcome to Father and Son Barber Shop—your family-owned grooming destination in Lorton, Virginia. Enjoy expert haircuts, traditional shaves, and personalized service in a warm, professional atmosphere."
 #### hero slider #####
 hero_slider:
   enable: true

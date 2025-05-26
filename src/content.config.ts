@@ -4,6 +4,9 @@ import { defineCollection, z } from "astro:content";
 const homepageCollection = defineCollection({
   loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/homepage" }),
   schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
     hero_slider: z.object({
       enable: z.boolean().default(true),
       slider_item: z.array(

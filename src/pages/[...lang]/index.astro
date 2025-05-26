@@ -25,7 +25,7 @@ const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
 if (!homepage || homepage.length === 0 || !homepage[0].data) {
   throw new Error("Homepage content not found for language: " + lang);
 }
-const { hero_slider, banner_feature, funfacts, feature, latest_news } =
+const { hero_slider, banner_feature, title, description, meta_title, funfacts, feature, latest_news } =
   homepage[0].data;
 
 const aboutIndex = await getListPage("about", lang as keyof ContentEntryMap);
@@ -60,7 +60,11 @@ const callToAction = await getSinglePage(
 );
 ---
 
-<Base>
+<Base
+title={title}
+meta_title={meta_title}
+description={description}
+>
   <HeroSlider heroSlider={hero_slider} />
   <BannerFeature bannerFeature={banner_feature} />
   <AboutUs about={aboutIndex[0].data.about_section} />
